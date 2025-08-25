@@ -1,0 +1,255 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/VerilogNew/VGAController/sim
+vclock25MGenerator
+Z1 !s110 1755501758
+!i10b 1
+!s100 ^Nj9ze1ziSDAAe[[XH0Mb0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I4Vkl?ZREEPhjL2J8OQhQG0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1751384736
+8../src/clock25MGenerator.v
+F../src/clock25MGenerator.v
+!i122 306
+L0 6 30
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1755501758.000000
+!s107 ../src/clock25MGenerator.v|
+!s90 -reportprogress|300|../src/clock25MGenerator.v|
+!i113 1
+Z6 tCvgOpt 0
+nclock25@m@generator
+vcounter2bit
+Z7 !s110 1755268271
+!i10b 1
+!s100 o=DjT^B@G_maH1GJRc4bQ2
+R2
+IAWfHg^nJMzDWJOBfk3Q9W2
+R3
+R0
+w1755267357
+8../src/counter2bit.v
+F../src/counter2bit.v
+!i122 296
+L0 8 30
+R4
+r1
+!s85 0
+31
+Z8 !s108 1755268271.000000
+!s107 ../src/counter2bit.v|
+!s90 -reportprogress|300|../src/counter2bit.v|
+!i113 1
+R6
+vhorizontal_counter
+R1
+!i10b 1
+!s100 ;cIXW^kdhNo2^DJm6a0^N2
+R2
+ID><5GLNcL90SCkDhWjJj00
+R3
+R0
+w1751384763
+8../src/horizontal_counter.v
+F../src/horizontal_counter.v
+!i122 307
+L0 6 33
+R4
+r1
+!s85 0
+31
+R5
+!s107 ../src/horizontal_counter.v|
+!s90 -reportprogress|300|../src/horizontal_counter.v|
+!i113 1
+R6
+vhorz_sync_generator
+R1
+!i10b 1
+!s100 [hR5V_OhoERLEQ2bdAW@h2
+R2
+IWWiRoM;jK_@K@W0:9KJAZ0
+R3
+R0
+w1746963540
+8../src/horz_sync_generator.v
+F../src/horz_sync_generator.v
+!i122 309
+L0 6 15
+R4
+r1
+!s85 0
+31
+R5
+!s107 ../src/horz_sync_generator.v|
+!s90 -reportprogress|300|../src/horz_sync_generator.v|
+!i113 1
+R6
+vrom
+Z9 !s110 1755501759
+!i10b 1
+!s100 g<gLPeUo33WjY[VaI]1<o0
+R2
+I7Unc]SUQ?JR>[[CEA>9N:3
+R3
+R0
+w1755501615
+8../src/rom.v
+F../src/rom.v
+!i122 312
+L0 6 76
+R4
+r1
+!s85 0
+31
+Z10 !s108 1755501759.000000
+!s107 ../src/rom.v|
+!s90 -reportprogress|300|../src/rom.v|
+!i113 1
+R6
+vsync
+R7
+!i10b 1
+!s100 2PFYi=5SK5KjOaA`V:UZl0
+R2
+I[VzZ5ZX@7fU1;mR<671fm2
+R3
+R0
+w1755268131
+8../src/sync.v
+F../src/sync.v
+!i122 295
+L0 6 36
+R4
+r1
+!s85 0
+31
+R8
+!s107 ../src/sync.v|
+!s90 -reportprogress|300|../src/sync.v|
+!i113 1
+R6
+vvert_sync_generator
+R9
+!i10b 1
+!s100 ^9fMU4^Q;M9^k?eZJfNFm0
+R2
+IN[<BGbLbGKXO1nU1WS8Pm2
+R3
+R0
+w1753352400
+8../src/vert_sync_generator.v
+F../src/vert_sync_generator.v
+!i122 310
+L0 6 16
+R4
+r1
+!s85 0
+31
+R5
+!s107 ../src/vert_sync_generator.v|
+!s90 -reportprogress|300|../src/vert_sync_generator.v|
+!i113 1
+R6
+vvertical_counter
+R1
+!i10b 1
+!s100 1:GoYH4UHjDCVGTSfnfhZ2
+R2
+I8i7JgEUEkcR3b1Ec2j;jK2
+R3
+R0
+w1751384778
+8../src/vertical_counter.v
+F../src/vertical_counter.v
+!i122 308
+L0 6 26
+R4
+r1
+!s85 0
+31
+R5
+!s107 ../src/vertical_counter.v|
+!s90 -reportprogress|300|../src/vertical_counter.v|
+!i113 1
+R6
+vvga_controller
+R9
+!i10b 1
+!s100 lB<noD7>l4E11jjTziX5a3
+R2
+IQHcRe_jlPE<jURP;cD@C_3
+R3
+R0
+w1755501716
+8../src/vga_controller.v
+F../src/vga_controller.v
+!i122 313
+L0 8 75
+R4
+r1
+!s85 0
+31
+R10
+!s107 ../src/vga_controller.v|
+!s90 -reportprogress|300|../src/vga_controller.v|
+!i113 1
+R6
+vvga_controller_tb
+R9
+!i10b 1
+!s100 ]=bVGz0K]6BlETDzL7NCo0
+R2
+ICj2eCd@7Jo>Pe1iPhbR`j3
+R3
+R0
+w1755501698
+8../src/vga_controller_tb.v
+F../src/vga_controller_tb.v
+!i122 314
+L0 8 65
+R4
+r1
+!s85 0
+31
+R10
+!s107 ../src/vga_controller_tb.v|
+!s90 -reportprogress|300|../src/vga_controller_tb.v|
+!i113 1
+R6
+vx_y_pixelGenerator
+R9
+!i10b 1
+!s100 jRWe3F_JH44[bX>zY9WLV2
+R2
+I=nzF7L9<^4^FcTIDQ7iXc3
+R3
+R0
+w1746720062
+8../src/x_y_pixelGenerator.v
+F../src/x_y_pixelGenerator.v
+!i122 311
+L0 6 24
+R4
+r1
+!s85 0
+31
+R10
+!s107 ../src/x_y_pixelGenerator.v|
+!s90 -reportprogress|300|../src/x_y_pixelGenerator.v|
+!i113 1
+R6
+nx_y_pixel@generator
