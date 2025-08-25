@@ -36,19 +36,5 @@ MIFGenerator(image_name,rgb_8bit_data, pow(2,18))
 
 
 
-image_names = ["bird_image.png","bird_image_2.png","background_image.png"]
-rgb_8bit_data_arrs = []
-for image_name in image_names:
-    print(image_name)
-    rgb_8bit_data = PixelGenerator(image_name, 320, 240, contrast_factor= 1.5, brightness_factor = 1.2)
-    rgb_8bit_data_arrs.extend(rgb_8bit_data)
-print(len(rgb_8bit_data_arrs))
-MIFGenerator("many_photos.mif",rgb_8bit_data_arrs, pow(2,18))
-
-
-
-
-
-
 
 
