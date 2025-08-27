@@ -26,10 +26,10 @@ Packed as: `RRR GGG BB`
 
 ## 📁 Repo Structure
 
-/src/ # Verilog source files
-/sim/ # Simulations and helper scripts
-/sim/bitmap/ # Python scripts for image-to-MIF conversion
-/images_helper/ # Diagrams and visuals
+/src/ # Verilog source files  
+/sim/ # Simulations and helper scripts  
+/sim/bitmap/ # Python scripts for image-to-MIF conversion  
+/images_helper/ # Diagrams and visuals  
 
 yaml
 Copy code
