@@ -31,8 +31,6 @@ Packed as: `RRR GGG BB`
 /sim/bitmap/ # Python scripts for image-to-MIF conversion  
 /images_helper/ # Diagrams and visuals  
 
-yaml
-Copy code
 
 ---
 
