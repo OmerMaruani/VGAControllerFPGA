@@ -1,45 +1,58 @@
-# VGA Controller Project
+# VGA Controller on FPGA (RGB332)
 
-This project implements a **VGA controller** on an FPGA that outputs video signals using the **RGB332** color format.
-The FPGA sends digital values representing colors to three Digital-to-Analog Converters (DACs),
-which convert the digital signals into analog voltages for the VGA display inputs.
+This project implements a VGA controller on an FPGA using the RGB332 color format.  
+It displays images on a VGA monitor by converting digital color signals to analog via DACs.  
+Includes Verilog, Python tools, and DAC hardware design.
 
-## Project Overview
+---
 
-- The **FPGA** generates digital color signals encoded in **RGB332 format**:
-  - **3 bits for Red**
-  - **3 bits for Green**
-  - **2 bits for Blue**
-- These 8-bit values are sent to **3 DAC units** (one per color channel).
-- The DACs convert the digital signals into analog voltages compatible with VGA analog inputs.
-- This setup enables the FPGA to output color video on a standard VGA monitor.
+## 🔧 Project Components
 
-## RGB332 Color Format
+1. **Verilog modules** for generating VGA timing and color signals.
+2. **Python scripts** to convert bitmap images to RGB332 `.mif` files (used for ROM initialization).
+3. **Simple hardware DAC circuits** using resistor ladders (weighted) to generate analog VGA signals.
+4. **Simulation helpers** and image processing tools (located in `/sim/`).
 
-The RGB332 encoding packs colors into a single 8-bit value:
-Bits: 7 6 5 | 4 3 2 | 1 0
-RRR GGG BB
+---
 
-This format balances color depth and bandwidth, suitable for efficient VGA color signaling.
+## 🖼️ RGB332 Color Format
+An 8-bit color format:
+- 3 bits Red
+- 3 bits Green
+- 2 bits Blue  
+Packed as: `RRR GGG BB`
 
-## Simulation and Bitmap Conversion
+---
 
-- The `/sim/bitmap` folder contains **Python scripts** that convert input images into **Memory Initialization Files (MIF)**.
-- These scripts process images and output pixel data in **RGB332 format** for the FPGA ROM.
-- The MIF files initialize the FPGA's ROM, storing bitmap data to be displayed on the VGA screen.
+## 📁 Repo Structure
 
-## Repository Structure
-
-/src/ # FPGA Verilog source code
-/sim/ # Simulation scripts and helpers
+/src/ # Verilog source files
+/sim/ # Simulations and helper scripts
 /sim/bitmap/ # Python scripts for image-to-MIF conversion
+/images_helper/ # Diagrams and visuals
 
+yaml
+Copy code
 
-## Usage
+---
 
-1. Use the Python scripts in `/sim/bitmap` to convert images to MIF files in RGB332 format.
-2. Load the MIF files into the FPGA ROM during synthesis.
-3. Program the FPGA to output VGA signals based on the ROM bitmap data.
+## 📝 Usage
 
+1. Convert your image to `.mif` using scripts in `/sim/bitmap/PixelsFilesGenerator.py`.
+2. Load the `.mif` into your FPGA’s ROM module.
+3. Build the DAC circuit and connect to VGA.
+4. Program the FPGA — it displays your image on the screen!
 
-Feel free to contribute or open issues if you need help!
+---
+
+## 📷 Diagrams
+
+![Block Diagram](https://github.com/OmerMaruani/VGAControllerFPGA/blob/main/images_helper/GraphicsModeBlockDiagram.png)  
+*credit: [narendiran1996.github.io](https://narendiran1996.github.io/project-blogs/jekyll/update/2020/08/14/vgaController.html)*
+
+![DAC Circuit](https://github.com/OmerMaruani/VGAControllerFPGA/blob/main/images_helper/DACCircuit.png)  
+*credit: [electronics.stackexchange](https://electronics.stackexchange.com/questions/465842/8-bit-vga-dac-design-question)*
+
+---
+
+Feel free to contribute or open issues!
