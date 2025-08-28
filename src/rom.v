@@ -21,7 +21,7 @@ module rom #(parameter DATA_WIDTH = 8, parameter ADDS_WIDTH = 18, horz_visible_a
 	//*****Change to real location******
 
 	// Read data for real hardware synthesis
-	(* ram_init_file = "../sim/bitmap/many_photos.mif" *)  // <-- Add this attribute
+	(* ram_init_file = "../sim/bitmap/bird_image.mif" *)  // <-- Add this attribute
 	reg [DATA_WIDTH-1:0] mem [0: ( 1 << ADDS_WIDTH ) - 1 ];
 	
 
