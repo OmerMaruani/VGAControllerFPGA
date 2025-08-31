@@ -41,6 +41,8 @@ An 8-bit format packed as RRR GGG BB — 3 bits Red, 3 bits Green, 2 bits Blue.
 
 This diagram shows the overall structure of the VGA controller — including pixel clock generation, counters, sync signal generation, and memory interface.
 ![BlockDiagarm](https://github.com/OmerMaruani/VGAControllerFPGA/blob/main/images_helper/GraphicsModeBlockDiagram.png)  
+*credit: [narendiran1996.github.io](https://narendiran1996.github.io/project-blogs/jekyll/update/2020/08/14/vgaController.html)*
+
 
 ---
 
