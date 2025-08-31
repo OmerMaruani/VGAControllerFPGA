@@ -4,6 +4,10 @@ This project implements a VGA controller on an FPGA using the RGB332 color forma
 It displays images on a VGA monitor by converting digital color signals to analog via DACs.  
 Includes Verilog, Python tools, and DAC hardware design.
 
+Image: Final output on VGA monitor using the FPGA + DAC setup.
+![Block Diagram](https://github.com/OmerMaruani/VGAControllerFPGA/blob/main/images_helper/GraphicsModeBlockDiagram.png)  
+
+
 ---
 
 ## 🔧 Project Components
@@ -35,8 +39,7 @@ An 8-bit format packed as RRR GGG BB — 3 bits Red, 3 bits Green, 2 bits Blue.
 🔲 VGA Controller Block Diagram
 
 This diagram shows the overall structure of the VGA controller — including pixel clock generation, counters, sync signal generation, and memory interface.
-![Block Diagram](https://github.com/OmerMaruani/VGAControllerFPGA/blob/main/images_helper/GraphicsModeBlockDiagram.png)  
-*credit: [narendiran1996.github.io](https://narendiran1996.github.io/project-blogs/jekyll/update/2020/08/14/vgaController.html)*
+![WorkingSystem](https://github.com/OmerMaruani/VGAControllerFPGA/blob/main/images_helper/WorkingProject.jpeg)  
 
 ---
 
