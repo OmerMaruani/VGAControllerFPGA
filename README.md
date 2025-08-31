@@ -28,18 +28,9 @@ Packed as: `RRR GGG BB`
 
 /src/ # Verilog source files  
 /sim/ # Simulations and helper scripts  
-/sim/bitmap/ # Python scripts for image-to-MIF conversion  
+/sim/bitmap/ # Python scripts for image-to-MIF conversion
+/sim/bitmap/PixelsFilesGenerator.py # Convert image to mif.
 /images_helper/ # Diagrams and visuals  
-
-
----
-
-## 📝 Usage
-
-1. Convert your image to `.mif` using scripts in `/sim/bitmap/PixelsFilesGenerator.py`.
-2. Load the `.mif` into your FPGA’s ROM module.
-3. Build the DAC circuit and connect to VGA.
-4. Program the FPGA — it displays your image on the screen!
 
 ---
 
