@@ -16,7 +16,6 @@ Includes Verilog, Python tools, and DAC hardware design.
 1. **Verilog modules** for generating VGA timing and color signals.
 2. **Python scripts** to convert bitmap images to RGB332 `.mif` files (used for ROM initialization).
 3. **Simple hardware DAC circuits** using resistor ladders (weighted) to generate analog VGA signals.
-4. **Simulation helpers** and image processing tools (located in `/sim/`).
 
 ---
 
