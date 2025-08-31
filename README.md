@@ -40,6 +40,7 @@ An 8-bit format packed as RRR GGG BB — 3 bits Red, 3 bits Green, 2 bits Blue.
 🔲 VGA Controller Block Diagram
 
 This diagram shows the overall structure of the VGA controller — including pixel clock generation, counters, sync signal generation, and memory interface.
+
 ![BlockDiagarm](https://github.com/OmerMaruani/VGAControllerFPGA/blob/main/images_helper/GraphicsModeBlockDiagram.png)  
 *credit: [narendiran1996.github.io](https://narendiran1996.github.io/project-blogs/jekyll/update/2020/08/14/vgaController.html)*
 
@@ -50,6 +51,7 @@ This diagram shows the overall structure of the VGA controller — including pix
 
 This is the digital-to-analog converter circuit using resistor ladders.
 Each color channel (R, G, B) uses a different resistor weight to approximate VGA voltage levels.
+
 ![DAC Circuit](https://github.com/OmerMaruani/VGAControllerFPGA/blob/main/images_helper/DACCircuit.png)  
 *credit: [electronics.stackexchange](https://electronics.stackexchange.com/questions/465842/8-bit-vga-dac-design-question)*
 
