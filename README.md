@@ -5,6 +5,7 @@ It displays images on a VGA monitor by converting digital color signals to analo
 Includes Verilog, Python tools, and DAC hardware design.
 
 Image: Final output on VGA monitor using the FPGA + DAC setup.
+
 ![WorkingProject](https://github.com/OmerMaruani/VGAControllerFPGA/blob/main/images_helper/WorkingProject.jpeg)  
 
 
