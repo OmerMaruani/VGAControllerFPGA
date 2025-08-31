@@ -16,11 +16,7 @@ Includes Verilog, Python tools, and DAC hardware design.
 ---
 
 ## 🖼️ RGB332 Color Format
-An 8-bit color format:
-- 3 bits Red
-- 3 bits Green
-- 2 bits Blue  
-Packed as: `RRR GGG BB`
+An 8-bit format packed as RRR GGG BB — 3 bits Red, 3 bits Green, 2 bits Blue.
 
 ---
 
