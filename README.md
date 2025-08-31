@@ -5,7 +5,7 @@ It displays images on a VGA monitor by converting digital color signals to analo
 Includes Verilog, Python tools, and DAC hardware design.
 
 Image: Final output on VGA monitor using the FPGA + DAC setup.
-![Block Diagram](https://github.com/OmerMaruani/VGAControllerFPGA/blob/main/images_helper/WorkingProject.jpeg)  
+![WorkingProject](https://github.com/OmerMaruani/VGAControllerFPGA/blob/main/images_helper/WorkingProject.jpeg)  
 
 
 ---
@@ -39,7 +39,7 @@ An 8-bit format packed as RRR GGG BB — 3 bits Red, 3 bits Green, 2 bits Blue.
 🔲 VGA Controller Block Diagram
 
 This diagram shows the overall structure of the VGA controller — including pixel clock generation, counters, sync signal generation, and memory interface.
-![WorkingSystem](https://github.com/OmerMaruani/VGAControllerFPGA/blob/main/images_helper/WorkingProject.jpeg)  
+![BlockDiagarm](https://github.com/OmerMaruani/VGAControllerFPGA/blob/main/images_helper/GraphicsModeBlockDiagram.png)  
 
 ---
 
