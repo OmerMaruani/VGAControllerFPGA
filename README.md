@@ -54,6 +54,7 @@ This diagram shows the overall structure of the VGA controller — including pix
 ---
 
 🔌 DAC Circuit
+
 This is the digital-to-analog converter circuit using resistor ladders.
 Each color channel (R, G, B) uses a different resistor weight to approximate VGA voltage levels.
 ![DAC Circuit](https://github.com/OmerMaruani/VGAControllerFPGA/blob/main/images_helper/DACCircuit.png)  
