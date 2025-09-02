@@ -6,7 +6,7 @@ Includes Verilog, Python tools, and DAC hardware design.
 
 **Image: Final output on VGA monitor using the FPGA + DAC setup.**
 
-![WorkingProject](https://github.com/OmerMaruani/VGAControllerFPGA/blob/main/images_helper/WorkingProject_1.jpeg)  
+![WorkingProject](https://github.com/OmerMaruani/VGAControllerFPGA/blob/main/images_helper/WorkingProject_2.jpeg)  
 
 
 ---
