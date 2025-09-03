@@ -37,11 +37,6 @@ A resistor-ladder DAC converts digital RGB signals to analog voltages for the VG
 
 ---
 
-## 🖼️ RGB332 Color Format
-An 8-bit format packed as RRR GGG BB — 3 bits Red, 3 bits Green, 2 bits Blue.
-
----
-
 ## 📁 Repo Structure
 
 /src/ # Verilog source files  
