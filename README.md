@@ -21,16 +21,16 @@ Includes Verilog, Python tools, and DAC hardware design.
 
 ## 📊 Workflow Overview
 
-**1. 🖼️ Image Processing with Python**
+**1. 🖼️ Image Processing with Python**  
 A Python script takes a user-provided image (in RGB888 format — 8 bits per channel), and converts it to RGB332 (3 bits red, 3 green, 2 blue), using a custom algorithm that minimizes color loss.
 
-**2. 🗃️ Memory Initialization File Generation**
+**2. 🗃️ Memory Initialization File Generation**  
 The processed pixel data is written to a .mif (Memory Initialization File) containing all the pixel values (~50–500 KB depending on image and resolution).
 
-**3. ⚙️ FPGA Synthesis & ROM Initialization**
+**3. ⚙️ FPGA Synthesis & ROM Initialization**   
 The .mif file is used to initialize a ROM block inside the FPGA during synthesis — embedding the image directly into the design.
 
-**4. 📺 VGA Signal Generation with Verilog Modules**
+**4. 📺 VGA Signal Generation with Verilog Modules**  
 Verilog modules generate VGA timing signals (Pixel Clock, HSYNC, VSYNC) and stream the pixel data to the output.
 A resistor-ladder DAC converts digital RGB signals to analog voltages for the VGA display.
 
