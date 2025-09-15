@@ -43,7 +43,7 @@ A resistor-ladder DAC converts digital RGB signals to analog voltages for the VG
 /sim/ # Simulations and helper scripts  
 /sim/bitmap/ # Python scripts for image-to-MIF conversion   
 /sim/bitmap/PixelsFilesGenerator.py # Convert image to mif   
-/images_helper/ # Diagrams and visuals  
+/images/ # Diagrams and visuals  
 
 ---
 
