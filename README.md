@@ -53,7 +53,8 @@ A resistor-ladder DAC converts digital RGB signals to analog voltages for the VG
 
 This diagram shows the overall structure of the VGA controller — including pixel clock generation, counters, sync signal generation, and memory interface.
 
-![BlockDiagarm](https://github.com/OmerMaruani/VGAControllerFPGA/blob/main/images_helper/GraphicsModeBlockDiagram.png)  
+![Block Diagram](images/breadboard-GraphicsModeBlockDiagram.png)
+
 *credit: [narendiran1996.github.io](https://narendiran1996.github.io/project-blogs/jekyll/update/2020/08/14/vgaController.html)*
 
 
