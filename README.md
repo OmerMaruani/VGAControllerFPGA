@@ -6,7 +6,7 @@ Includes Verilog, Python tools, and DAC hardware design.
 
 **Image: Final output on VGA monitor using the FPGA + DAC setup.**
 
-![WorkingProject](https://github.com/OmerMaruani/VGAControllerFPGA/blob/main/images_helper/WorkingProject_2.jpeg)  
+![WorkingProject](images/HardwareSetup.png)  
 
 
 ---
@@ -65,7 +65,7 @@ This diagram shows the overall structure of the VGA controller — including pix
 This is the digital-to-analog converter circuit using resistor ladders.
 Each color channel (R, G, B) uses a different resistor weight to approximate VGA voltage levels.
 
-![DAC Circuit](https://github.com/OmerMaruani/VGAControllerFPGA/blob/main/images_helper/DACCircuit.png)  
+![DAC Circuit](images/DACCircuit.png)  
 *credit: [electronics.stackexchange](https://electronics.stackexchange.com/questions/465842/8-bit-vga-dac-design-question)*
 
 ---
