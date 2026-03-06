@@ -40,7 +40,7 @@ A resistor-ladder DAC converts digital RGB signals to analog voltages for the VG
 ## 📁 Repo Structure
 
 ```text
-project-root/
+VGAControllerFPGA/
 ├── src/                # Verilog source files
 ├── sim/                # Simulations and helper scripts
 │   └── bitmap/         # Python scripts for image-to-MIF conversion
