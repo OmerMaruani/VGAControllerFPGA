@@ -47,16 +47,6 @@ VGAControllerFPGA/
 │       └── PixelsFilesGenerator.py
 └── images/             # Diagrams and visuals
 ```
-
-
-
-
-/src/ # Verilog source files  
-/sim/ # Simulations and helper scripts  
-/sim/bitmap/ # Python scripts for image-to-MIF conversion   
-/sim/bitmap/PixelsFilesGenerator.py # Convert image to mif   
-/images/ # Diagrams and visuals  
-
 ---
 
 ## 📷 Diagrams
